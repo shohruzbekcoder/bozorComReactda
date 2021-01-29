@@ -1,0 +1,15 @@
+.header-iconc-two{
+    position: relative;
+
+}
+
+.header-iconc-two::after{
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: -9px;
+    width: 15px;
+    height: 15px;
+    background-color: #014472;
+    border-radius: 50%;
+}
